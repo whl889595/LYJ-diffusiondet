@@ -1,0 +1,24 @@
+_BASE_: "Base-DiffusionDet.yaml"
+MODEL:
+  WEIGHTS: "/home_nfs/hongli.wang/hongli.wang/Paper_reproduction/DiffusionDet/diffdet_coco_res50_300boxes.pth"
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+  DiffusionDet:
+    NUM_PROPOSALS: 300
+    NUM_CLASSES: 1
+  ROI_HEADS:  # ✅ 正确的参数路径
+    SCORE_THRESH_TEST: 0.05  # 推理置信度阈值
+DATASETS:
+  TRAIN: ()
+  TEST: ("crowdhuman_val",)
+SOLVER:
+  STEPS: (350000, 420000)
+  MAX_ITER: 450000
+INPUT:
+  CROP:
+    ENABLED: False
+  FORMAT: "RGB"
+TEST:
+  EVAL_PERIOD: 0
+  DETECTIONS_PER_IMAGE: 300

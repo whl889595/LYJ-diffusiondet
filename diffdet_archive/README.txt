@@ -1,0 +1,20 @@
+COCO数据集：
+COCO2017 训练数据：http://images.cocodataset.org/zips/train2017.zip
+http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+COCO2017验证数据：http://images.cocodataset.org/zips/val2017.zip
+http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip
+COCO2017测试数据集：http://images.cocodataset.org/zips/test2017.zip
+http://images.cocodataset.org/annotations/image_info_test2017.zip
+
+Lvis数据集：
+图像复用COCO
+train标注文件：https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/33/4a/4caa374030a7817cf050364525e910f7960f9b6968cef47cffbf3893f8ba?filename=lvis_v1_train.json.zip&namespace=anyforge&repository=lvis&revision=master&tag=dataset&auth_key=1766568328-f356c4c977d3421394db3d7ab2145028-0-55e42e6aaf799d3303b18fd6772a1a62
+val标注文件：https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/5c/ae/9a3c79aadb667550c2b5dcf7f4d86e059a41ec91ef690225b667e28e9ba5?filename=lvis_v1_val.json.zip&namespace=anyforge&repository=lvis&revision=master&tag=dataset&auth_key=1766568286-612e18a668784923af96f597b756d6f9-0-51a7632867d128db8658edc0e005087f
+
+crowdhuman数据集：
+train01：https://ai-studio-online.bj.bcebos.com/v1/37a8ab9252c64ae0b65e0a857cc45a4c1fc0029475db49378f2da794c3578827?responseContentDisposition=attachment%3Bfilename%3DCrowdHuman_train01.zip&authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2025-12-24T09%3A26%3A20Z%2F60%2F%2F59406be4a52f3a76dc091229da4975d2a5da22711fe4988ce900a7b7dc8ab787
+train02：https://ai-studio-online.bj.bcebos.com/v1/6cb507ddf41a49d6bacd18d022fb1f6719e9fa7c82d541b199c7daa000cd6e96?responseContentDisposition=attachment%3Bfilename%3DCrowdHuman_train02.zip&authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2025-12-24T09%3A26%3A55Z%2F60%2F%2F4a91911713bc5d51c8e00e1692eee1450b0a93c3e3fc26b8a5056487cd11fc6b
+train03：https://ai-studio-online.bj.bcebos.com/v1/d26f7ebea55a4766a067ea7fce0f79db6bb30b920c014587918859f64ea7faab?responseContentDisposition=attachment%3Bfilename%3DCrowdHuman_train03.zip&authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2025-12-24T09%3A27%3A14Z%2F60%2F%2Fef20b5f24b275f1c3f26b8b79c608e27e24e99ce472c83501b0d7f06f9a84713
+annotation_train:https://ai-studio-online.bj.bcebos.com/v1/59b11f248f474d1b9754035b5a6a5082a0006018aa0c4d619bf25ac0f00f0f92?responseContentDisposition=attachment%3Bfilename%3Dannotation_train.odgt&authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2025-12-24T09%3A27%3A51Z%2F60%2F%2Fd54d8a2c673e23918f67bcad503be708a211108b55d95c1a9072246ae3fe37d5
+val:https://ai-studio-online.bj.bcebos.com/v1/67e24e23c67c4620942600499a32cf523d5869442de846a48d5aa28258d4f79f?responseContentDisposition=attachment%3Bfilename%3DCrowdHuman_val.zip&authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2025-12-24T09%3A28%3A39Z%2F60%2F%2F0d3e768d799adc4c8149e3d1dd59b08ad0886b4979c6a45e005563e114ec4d76
+annotation_val:https://ai-studio-online.bj.bcebos.com/v1/ef626ec8d8c44d4a92f6704c5a9da5e76196e4e9086e44f6a975be4e4b966710?responseContentDisposition=attachment%3Bfilename%3Dannotation_val.odgt&authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2025-12-24T09%3A28%3A59Z%2F60%2F%2F0be46b845d093ad1a2f2288a46920b57b5e34202065989b2a7d087f730e6f82f
